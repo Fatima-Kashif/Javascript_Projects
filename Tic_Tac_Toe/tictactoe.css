@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.outerdiv{
+    background-color: rgb(95, 94, 94);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap:60px;
+}
+.wholegame{
+    margin-bottom: 20px;
+}
+.box{
+    margin: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+    background-color: aliceblue;
+    color: teal;
+    border: none;
+    cursor:pointer;
+}
+.box:hover {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    gap:12px;
+    margin: 12px;
+}
+#reset{
+    background-color: rgb(151, 198, 216);
+    border-radius: 4px;
+    padding: 15px;
+    width:100px;
+    border: none;
+    color:teal;
+    font-size: large;
+    margin-top: 40px;
+    cursor:pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hide{
+    display:none;
+}
+.style{
+    background-color: rgb(151, 198, 216);
+    border-radius: 4px;
+    padding: 15px;
+    border: none;
+    color:teal;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor:pointer;
+}
+#message{
+    color:rgb(6, 80, 80);
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
