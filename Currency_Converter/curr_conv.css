@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Inter;
+}
+
+#container{
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#box{
+    width: 350px;
+    background-color: rgb(247, 244, 234);
+    padding: 40px;
+    border-radius: 20px;
+}
+#heading{
+    margin: 10px 0px 10px 0px;
+}
+#amount{
+    width: 80%;
+    border-radius: 6px;
+    border: solid 1px grey;
+    padding: 10px;
+    
+    margin:5px 0px 40px 0px;
+}
+#conversion{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#from_currency,#to_currency{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.flag{
+    max-width: 40%;
+}
+.curr_choose{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+#convert{
+    margin-top: 30px;
+}
+#rate{
+    margin-bottom: 30px;
+}
+#get_rate{
+width: 100%;
+border-radius: 8px;
+padding: 10px;
+background-color: rgb(245, 206, 143);
+border: none;
+cursor: pointer;
+}
+
+
